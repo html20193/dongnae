@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title> WORKS - 동내 인터랙티브 </title>
+  <link rel="stylesheet" href="../assets/css/swiper.css">
+  <link rel="stylesheet" href="../assets/css/dongnae.css">
+  <meta name="viewport"
+    content="width=device-width, initial-sclae=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <script src="../assets/js/jquery-1.12.4.min.js"></script>
+  <script src="../assets/js/swiper.min.js"></script>
+  <script src="../assets/js/common.js"></script>
+  <script>
+    $(document).ready(function () {
+      var mySwiper = new Swiper('#cnt2 .swiper-container', {
+        effect: 'fade',
+        nested: true,
+        touchEventsTarget: 'wrapper',
+        loop: true,
+
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+
+      var mySwiper2 = new Swiper('#cnt3 .swiper-container', {
+        effect: 'fade',
+        nested: true,
+        touchEventsTarget: 'wrapper',
+        loop: true,
+
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div id="scrollX">
+    <header id="header" class="p_r">
+      <button type="button" id="hamburger">
+        <span class="sr-only">메뉴 열기</span>
+        <span class="line top"></span>
+        <span class="line mid"></span>
+        <span class="line btm"></span>
+      </button>
+      <nav id="gnb">
+        <h2 class="sr-only">주메뉴</h2>
+        <div class="gnb_icon1 p_a"></div>
+        <div class="gnb_icon2 p_a"></div>
+        <ul>
+          <li data-link="first"><a href="../index.html"><img src="../assets/images/common/dongnae_logo.svg"
+                alt="동내 홈"></a></li>
+          <li><a href="../about/about.html">ABOUT US</a></li>
+          <li><a href="../project/project.html">PROJECT</a></li>
+          <li data-link="last"><a href="../works/works.html">WORKS</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="content">
+      <article id="cnt1" class="p_r">
+        <h1 class="head_h1 work_hh p_a">DONGNAE <br>WORKS</h1>
+        <p class="sr-only">가로 스크롤 페이지입니다</p>
+        <p class="head_p work_hp p_a">세상에 없던 이야기를 <br>많은 사람들에게 <br>소개할 수 있다는 것은 <br>언제나 설레는 일이죠.</p>
+        <div class="work_loading p_a"></div>
+      </article>
+      <article id="cnt2" class="work_cnt2 p_r">
+        <h2 class="ah p_a">콩스터크루</h2>
+        <p class="ap p_a">농업기술원에서 도망쳐 나온 <br>유전자조작 실패작 <br>콩스터와 톨스터! <br>실패작 후손인 코스터! <br><br><br>이들의 모험이 시작된다.</p>
+        <div class="swiper-pos p_a">
+          <div class="swiper-container p_r">
+            <img src="../assets/images/works/slider_bg_green.svg" alt="">
+            <div class="swiper-wrapper p_a">
+              <div class="swiper-slide">
+                <img src="../assets/images/works/wallpaper_kong.jpg" srcset="../assets/images/works/wallpaper_kong_2x.jpg 2x" alt="콩스터 월페이퍼">
+                <p>ch.1 콩스터</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/images/works/wallpaper_co.jpg" srcset="../assets/images/works/wallpaper_co_2x.jpg 2x" alt="코스터 월페이퍼">
+                <p>ch.2 코스터</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/images/works/wallpaper_ddang.jpg" srcset="../assets/images/works/wallpaper_ddang_2x.jpg 2x" alt="땅스터 월페이퍼">
+                <p>ch.3 땅스터</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/images/works/wallpaper_hell.jpg" srcset="../assets/images/works/wallpaper_hell_2x.jpg 2x" alt="헬스터 월페이퍼">
+                <p>ch.4 헬스터</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/images/works/wallpaper_tall.jpg" srcset="../assets/images/works/wallpaper_tall_2x.jpg 2x" alt="톨스터 월페이퍼">
+                <p>ch.5 톨스터</p>
+              </div>
+            </div>
+            <div class="swiper-button-prev p_a"><img src="../assets/images/works/slider_prev.png" alt="이전버튼"></div>
+            <div class="swiper-button-next p_a"><img src="../assets/images/works/slider_next.png" alt="다음버튼"></div>
+          </div>
+        </div>
+        <img src="../assets/images/works/work_coster.svg" alt="" class="work_co p_a">
+        <img src="../assets/images/works/work_tallster.svg" alt="" class="work_tall p_a">
+        <img src="../assets/images/works/work_ddangster.svg" alt="" class="work_ddang p_a">
+        <img src="../assets/images/works/kongster_logo.svg" alt="" class="kongster_logo p_a">
+      </article>
+      <div class="work_kong_bg f_l"></div>
+      <article id="cnt3" class="work_cnt3 p_r">
+        <h2 class="ah c_white p_a">동내서체 시리즈</h2>
+        <p class="ap c_white p_a">동내 인터랙티브가 선사하는 <br>새로운 폰트의 세계! <br><br><br>생활에서 보이는 다양한 모양을 <br>한글과 알파벳으로담아 <br>기존에 없었던 새로운 느낌의 <br>폰트를 선사합니다.</p>
+        <div class="swiper-pos p_a">
+          <div class="swiper-container p_r">
+            <img src="../assets/images/works/slider_bg_blue.svg" alt="">
+            <div class="swiper-wrapper p_a">
+              <div class="swiper-slide">
+                <img src="../assets/images/works/font_ky.jpg" srcset="../assets/images/works/font_ky_2x.jpg 2x" alt="">
+                <p>ch.1 동내깃발게양체</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/images/works/font_ngg.jpg" srcset="../assets/images/works/font_ngg_2x.jpg 2x"
+                  alt="">
+                <p>ch.2 동내냉장고체</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/images/works/font_bb.jpg" srcset="../assets/images/works/font_bb_2x.jpg 2x"
+                  alt="">
+                <p>ch.3 동내분방체</p>
+              </div>
+            </div>
+            <div class="swiper-button-prev p_a"><img src="../assets/images/works/slider_prev.png" alt="이전버튼"></div>
+            <div class="swiper-button-next p_a"><img src="../assets/images/works/slider_next.png" alt="다음버튼"></div>
+          </div>
+        </div>
+        <img src="../assets/images/works/font_ngg2.svg" alt="" class="font_ngg p_a">
+      </article>
+      <div class="work_font_bg f_l"></div>
+    </section>
+    <footer id="footer" class="p_r">
+      <button class="back_head p_a"><img src="../assets/images/common/top_btn.svg" alt="처음으로 돌아가기"></button>
+      <a href="https://www.youtube.com/channel/UCgZPPQplO7Kn1CCWXVm4Zvg/featured" target="_blank"
+        class="youtube p_a"><img src="../assets/images/common/youtube.svg" alt="동내 유튜브 바로가기"></a>
+      <div class="foot_icon1 p_a"></div>
+      <div class="foot_icon2 p_a"></div>
+      <p class="copyright p_a">copyright &copy; 2020 dongnae <br>all rights reserved</p>
+      <a href="../index.html" class="foot_logo p_a"><img src="../assets/images/common/foot_logo.svg"
+          alt="dongnae interactive"></a>
+    </footer>
+  </div>
+</body>
+
+</html>

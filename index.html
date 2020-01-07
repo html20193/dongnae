@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title> 동내 인터랙티브 </title>
+    <link rel="stylesheet" href="assets/css/dongnae.css">
+    <meta name="viewport"
+        content="width=device-width, initial-sclae=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/common.js"></script>
+    <script src="assets/js/index.js"></script>
+</head>
+
+<body>
+    <div id="scrollX" class="change_bg">
+        <header id="header" class="p_r">
+            <button type="button" id="hamburger">
+                <span class="sr-only">메뉴 열기</span>
+                <span class="line top"></span>
+                <span class="line mid"></span>
+                <span class="line btm"></span>
+            </button>
+            <nav id="gnb">
+                <h2 class="sr-only">주메뉴</h2>
+                <div class="gnb_icon1 p_a"></div>
+                <div class="gnb_icon2 p_a"></div>
+                <ul>
+                    <li data-link="first"><a href="index.html"><img src="assets/images/common/dongnae_logo.svg"
+                                alt="동내 홈"></a></li>
+                    <li><a href="about/about.html">ABOUT US</a></li>
+                    <li><a href="project/project.html">PROJECT</a></li>
+                    <li data-link="last"><a href="works/works.html">WORKS</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="content">
+            <article id="cnt1" class="p_r">
+                <h1 class="head_h1 idx_hh p_a"><img src="assets/images/common/dongnae_logo.svg" alt="dongnae interactive" class="header_logo"></h1>
+                <p class="sr-only">가로 스크롤 페이지입니다</p>
+                <p class="head_p idx_hp p_a">조금 더 재미있게 <br>조금 더 신나게 <br>조금 더 새롭게</p>
+            </article>
+            <div class="whale_motion f_l p_r">
+                <div class="idx_whale p_a"></div>
+                <div class="bubbles big p_a"></div>
+                <div class="bubbles middle p_a"></div>
+                <div class="bubbles small p_a"></div>
+                <div class="bubbles micro p_a"></div>
+            </div>
+            <article id="cnt2" class="p_r">
+                <p class="idx_ap p_a">새로운 즐거움을 찾고 <br>행복을 만들어 갑니다.</p>
+                <h3 class="idx_ah p_a">ABOUT US</h3>
+                <a href="about/about.html" class="idx_link p_a">자세히 보기</a>
+                <div class="pos250 p_a"></div>
+            </article>
+            <article id="cnt3" class="p_r">
+                <p class="idx_ap p_a">더 나은 즐거음을 위한 <br>새로운 도전들</p>
+                <h3 class="idx_ah p_a">PROJECT</h3>
+                <a href="project/project.html" class="idx_link p_a">자세히 보기</a>
+                <div class="idx_bird p_a"></div>
+                <div class="idx_boat p_a"></div>
+                <div class="idx_air p_a"></div>
+            </article>
+            <article id="cnt4" class="p_r">
+                <p class="idx_ap p_a">재미와 행복을 담은 <br>동내인터랙티브 콘텐츠</p>
+                <h3 class="idx_ah p_a">WORKS</h3>
+                <a href="works/works.html" class="idx_link p_a">자세히 보기</a>
+                <div class="pos400 p_a"></div>
+            </article>
+            <div class="star_motion f_l p_r">
+                <div class="island_tree p_a"></div>
+                <div class="kong_star p_a"></div>
+                <div class="star stars1 p_a"></div>
+                <div class="star stars2 p_a"></div>
+                <div class="star stars3 p_a"></div>
+                <div class="star stars4 p_a"></div>
+            </div>
+        </section>
+        <aside id="indicator">
+            <h2 class="sr-only">섹션 바로가기</h2>
+            <div class="idx_wave1 p_a"></div>
+            <div class="idx_wave2 p_a"></div>
+            <ul class="p_a">
+                <li class="idx_list1">
+                    <a href="#cnt1" role="button"><span>HOME</span></a>
+                </li>
+                <li class="idx_list2">
+                    <a href="#cnt2" role="button"><span>ABOUT US</span></a>
+                </li>
+                <li class="idx_list3">
+                    <a href="#cnt3" role="button"><span>PROJECT</span></a>
+                </li>
+                <li class="idx_list4">
+                    <a href="#cnt4" role="button"><span>WORKS</span></a>
+                </li>
+            </ul>
+        </aside>
+        <footer id="footer" class="p_r">
+            <button class="back_head p_a"><img src="assets/images/common/top_btn.svg" alt="처음으로 돌아가기"></button>
+            <a href="https://www.youtube.com/channel/UCgZPPQplO7Kn1CCWXVm4Zvg/featured" target="_blank"
+            class="youtube p_a"><img src="assets/images/common/youtube.svg" alt="동내 유튜브 바로가기"></a>
+            <div class="foot_icon1 p_a"></div>
+            <div class="foot_icon2 p_a"></div>
+            <p class="copyright p_a">copyright &copy; 2020 dongnae <br>all rights reserved</p>
+            <a href="index.html" class="foot_logo p_a"><img src="assets/images/common/foot_logo.svg" alt="dongnae interactive"></a>
+        </footer>
+    </div>
+</body>
+
+</html>
